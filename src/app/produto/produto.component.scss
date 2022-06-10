@@ -1,0 +1,33 @@
+.container{
+  max-width: 225px;
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  border: 1px solid black;
+  border-radius: 5px;
+
+  background-color: white;
+}
+
+.produto-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 3px 3px;
+
+  font-size: 14px;
+  cursor: pointer;
+  .produto-imagem{
+    border-radius: 10px;
+  }
+  .produto-preco{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(60, 63, 255);
+  }
+}
+
